@@ -1,5 +1,5 @@
 # Build vue app
-FROM node:12.16.1-alpine as build-stage
+FROM node:16.17.1-alpine as build-stage
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
